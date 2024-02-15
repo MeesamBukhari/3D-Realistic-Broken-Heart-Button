@@ -60,3 +60,24 @@ input[type="checkbox"]:checked + label > .fa-solid {
 input[type="checkbox"]:checked:after {
   background: linear-gradient(-135deg, #ffbfbf, #d40000);
 }
+
+footer {
+  background-color: #333;
+  color: aliceblue;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a {
+  color: #e4db2a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fe5190;
+}
